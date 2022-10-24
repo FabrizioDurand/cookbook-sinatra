@@ -1,0 +1,11 @@
+<p>
+  I'm in a <em>view</em>!
+</p>
+
+<% @recipes.each do |recipe| %>
+  <li>
+    <%= recipe %>
+  </li>
+<% end %>
+
+<%= Time.now %>
